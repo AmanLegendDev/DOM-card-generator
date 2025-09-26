@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+    body{
+      font-family: 'inter',sans-serif;
+      color: white;
+      background-color: rgb(47, 47, 99)
+    }
+.card{
+  width: 250px;
+  max-width: 320px;
+  margin: 10px auto;
+  background-image: linear-gradient(blue,purple);
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  height: auto;
+  
+}
+
+input{
+  display: block;
+ background-image: linear-gradient(blue,purple);
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  border: 1px solid black;
+  border-radius: 20px;
+ text-align: center;
+ padding-top: 5px;
+ margin-top: 5px;
+  
+}
+#card img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -10px;
+  
+}
+#card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.name{
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 10px black;
+}
+.pro{
+text-transform: capitalize;
+font-size: larger;
+font-weight: 600;
+  text-shadow: 5px 5px 10px black;
+
+
+}
+.bio{
+text-transform: capitalize;
+font-size: large;
+font-weight: 600;
+overflow: flex;
+text-shadow: 5px 5px 10px black;
+
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="main">
+        
+<form class="form">
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Profile..URL">
+    <input type="text" placeholder="Profession">
+    <input type="text" placeholder="About You">
+    <input type="submit">
+</form>
+</div>
+<div id="card">
+
+</div>  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
