@@ -11,7 +11,7 @@ A dynamic, searchable, and responsive student card generator built with HTML, CS
 
 ## Demo
 
-Check out the live project here: [https://amanlegenddev.github.io/DOM-card-generator/](#) 
+Check out the live project here: [https://amanlegenddev.github.io/DOM-card-generator/]
 
 ## Technologies Used
 
